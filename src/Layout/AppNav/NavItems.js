@@ -6,7 +6,7 @@ export const MainNav = [
 
             {
                 label: 'Challenge Overview',
-                to: '#/dashboards/commerce',
+                to: '#/dashboards/challenge',
             }
         ],
     },
@@ -17,7 +17,7 @@ export const MainNav = [
         content: [
             {
                 label: 'Performance Data',
-                to: '#/apps/mailbox',
+                to: '#/apps/performance',
             },
 
         ],

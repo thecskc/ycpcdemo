@@ -25,7 +25,7 @@ const Applications = ({match}) => (
             <AppSidebar/>
             <div className="app-main__outer">
                 <div className="app-main__inner p-0">
-                    <Route path={`${match.url}/mailbox`} component={Mailbox}/>
+                    <Route path={`${match.url}/performance`} component={Mailbox}/>
                     <Route path={`${match.url}/chat`} component={Chat}/>
                     <Route path={`${match.url}/split-layout`} component={SplitLayout}/>
                     <Route path={`${match.url}/faq-section`} component={FaqSection}/>

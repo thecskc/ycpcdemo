@@ -31,8 +31,7 @@ const AppMain = () => {
                             <Loader type="ball-pulse-rise"/>
                         </div>
                         <h6 className="mt-5">
-                            Please wait while we load all the Components examples
-                            <small>Because this is a demonstration we load at once all the Components examples. This wouldn't happen in a real live app!</small>
+                            Please wait while we load
                         </h6>
                     </div>
                 </div>
@@ -49,8 +48,7 @@ const AppMain = () => {
                             <Loader type="ball-pulse-rise"/>
                         </div>
                         <h6 className="mt-5">
-                            Please wait while we load all the Forms examples
-                            <small>Because this is a demonstration we load at once all the Forms examples. This wouldn't happen in a real live app!</small>
+                            Please wait while we load
                         </h6>
                     </div>
                 </div>
@@ -185,7 +183,7 @@ const AppMain = () => {
             </Suspense>
 
             <Route exact path="/" render={() => (
-                <Redirect to="/dashboards/crm"/>
+                <Redirect to="/dashboards/challenge"/>
             )}/>
             <ToastContainer/>
         </Fragment>
